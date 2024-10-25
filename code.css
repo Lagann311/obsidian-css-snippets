@@ -1,0 +1,30 @@
+
+span.cm-inline-code {
+    /* your styles here */
+    background-color: #1F1F1F !important; /* example style */
+	color: #00ffff !important;
+	padding: 0.1em !important;
+	border-radius: 6px !important;
+}
+
+code:not([class]) {
+    background-color: #1F1F1F !important; /* example style */
+	color: #00ffff !important;
+	padding: 0.2em !important;
+	border-radius: 6px !important;
+}
+
+/* automatically select all text inside code when left clicked 
+code {
+  user-select: all;
+  -moz-user-select: all;     Firefox 
+  -webkit-user-select: all;  Safari and Chrome 
+}
+*/
+
+/* Execute-Code code-block: */
+
+pre.language-csharp {
+	margin-top: 2px !important;
+	margin-bottom: 10px !important;
+}

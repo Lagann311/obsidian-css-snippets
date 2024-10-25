@@ -1,0 +1,9 @@
+.tree-item-self.nav-file-title {
+	padding-top: 0.8px;
+	padding-bottom: 0.8px;
+}		
+
+div.tree-item-self.nav-folder-title:not(.nav-file-title) {
+    padding-top: 2.3px;
+	padding-bottom: 2.3px;
+}

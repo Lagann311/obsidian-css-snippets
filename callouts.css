@@ -1,0 +1,75 @@
+.callout[data-callout="Prerequisites" i],
+.callout[data-callout="Setup" i],
+.callout[data-callout="Condition" i] {
+    --callout-color: 255, 230, 204;
+    --callout-icon: lucide-egg;
+}
+
+.callout[data-callout="Advantage" i],
+.callout[data-callout="ThumbsUp" i],
+.callout[data-callout="Strength" i] {
+    --callout-color: 118, 201, 125;
+    --callout-icon: lucide-thumbs-up;
+}
+
+.callout[data-callout="Disadvantage" i],
+.callout[data-callout="ThumbsDown" i],
+.callout[data-callout="Weakness" i] {
+    --callout-color: 172, 27, 12;
+    --callout-icon: lucide-thumbs-down;
+}
+
+.callout[data-callout="See-Also" i],
+.callout[data-callout="References" i],
+.callout[data-callout="Similar" i] {
+    --callout-color: 128, 184, 213;
+    --callout-icon: lucide-eye;
+}
+
+.callout[data-callout="Consequence" i],
+.callout[data-callout="Arrow" i],
+.callout[data-callout="Following" i] {
+    --callout-color: 226, 226, 115;
+    --callout-icon: lucide-corner-down-right;
+}
+
+.callout[data-callout="Coding-Guideline" i],
+.callout[data-callout="CodingStandard" i],
+.callout[data-callout="GuideLine" i] {
+    --callout-color: 167, 216, 169;
+    --callout-icon: lucide-clipboard-check;
+}
+
+.callout[data-callout="Equivalent" i],
+.callout[data-callout="Same" i],
+.callout[data-callout="Same_AS" i],
+.callout[data-callout="SameAS" i],
+.callout[data-callout="Equivalent_To" i],
+.callout[data-callout="EquivalentTo" i],
+.callout[data-callout="Equals" i] {
+    --callout-color: 186, 137, 125;
+    --callout-icon: lucide-equal;
+}
+
+.callout[data-callout="Coding-Guideline" i],
+.callout[data-callout="CodingStandard" i],
+.callout[data-callout="GuideLine" i] {
+    --callout-color: 167, 216, 169;
+    --callout-icon: lucide-clipboard-check;
+}
+
+.callout[data-callout="UseCase" i],
+.callout[data-callout="Usage" i],
+.callout[data-callout="Use" i] {
+    --callout-color: 130, 199, 177;
+    --callout-icon: lucide-pointer;
+}
+
+.callout[data-callout="Rule" i],
+.callout[data-callout="Law" i],
+.callout[data-callout="Rules" i],
+.callout[data-callout="Laws" i] {
+    --callout-color: 115, 125, 243;
+    --callout-icon: lucide-scale;
+}
+

@@ -1,0 +1,14 @@
+/* Scrollbar /
+/ change width */
+::-webkit-scrollbar {
+width:11px !important;
+}
+
+
+
+/* Scrollbar thumb - the draggable part */
+::-webkit-scrollbar-thumb {
+    background-color: #219d99 !important; /* Change the scrollbar thumb color to red */
+    border-radius: 10px; /* Optional: round the corners */
+    border: 2px solid #f0f0f0; /* Optional: space around the scrollbar thumb */
+}

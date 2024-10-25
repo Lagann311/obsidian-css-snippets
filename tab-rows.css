@@ -1,0 +1,52 @@
+.workspace .mod-root .workspace-tab-header-container {
+  display: table;
+  height: unset;
+}
+
+.workspace .mod-root .workspace-tab-header-container-inner {
+  flex-wrap: wrap;
+  margin: unset;
+  padding: unset;
+}
+
+.workspace .mod-root .workspace-tab-header {
+  flex: none !important;
+}
+
+.titlebar .workspace-tab-header-new-tab,
+.mod-root .workspace-tab-header-new-tab {
+  display: table-cell;
+  padding: unset;
+}
+
+.workspace .mod-root .workspace-tab-header {
+    flex: none !important;
+    width: unset;
+ /* max-width: fit-content;	*/  /* this can be used so that the max width will wrap to fit in the content	 */ 
+    min-width: 20px; /* set the minimum width here */
+    max-width: 300px; /* set the maximum width here */
+    border: 1px solid var(--color-base-50);
+}
+
+.workspace .mod-root .workspace-tab-header-inner::after {
+    width: 0px;
+}
+
+/* Override the "white-space: nowrap" property for all instances of .workspace-tab-header-inner-title */
+div.workspace-tab-header .workspace-tab-header-inner-title,
+div.pinned-items-container .workspace-tab-header-inner-title,
+div.vault-tabs-container .workspace-tab-header-inner-title {
+  white-space: initial !important;
+}
+
+body {
+    --tab-outline-color: unset;
+}
+
+.workspace .mod-root .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
+    display: flex;
+}
+
+.workspace .mod-root .workspace-tab-header.is-active:hover .workspace-tab-header-inner-close-button, .workspace .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
+    display: none;
+}
